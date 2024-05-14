@@ -9,7 +9,7 @@
 
 
 ## Work Experience
-**Working Student & intern  @ [deXcon GmbH](https://www.dexcon.tech/) (_Aug 2022 - Jun 2023_)**
+### **Working Student & intern  @ [deXcon GmbH](https://www.dexcon.tech/) (_Aug 2022 - Jun 2023_)**
 deXcon GmbH develops software, components, and control cabinets for decentralized power generation, focusing on P/Q control, remote connections to control centers, and integration with virtual power plants for electricity marketing.
 
 My tasks: 
@@ -19,7 +19,7 @@ My tasks:
 
 
 
-**intern @ [Krones AG](https://www.krones.com/de/index.php) (_Sep 2017 - Jul 2018_)**
+### **intern @ [Krones AG](https://www.krones.com/de/index.php) (_Sep 2017 - Jul 2018_)**
 - Six month internship as part of my Technical "Abitur"
 
 
