@@ -25,8 +25,7 @@ My tasks:
 
 
 ## Projects
-### Bachelor thesis
-[GitHub-repo](https://github.com/Felix561/Photovoltaic-power-forecasting-using-deep-learning)
+### [Bachelor thesis](https://github.com/Felix561/Photovoltaic-power-forecasting-using-deep-learning)
 
 Title: Short-term Photovoltaic Power Forecasting using Deep Learning
 
