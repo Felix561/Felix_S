@@ -28,17 +28,17 @@ My tasks:
 ### Bachelor thesis
 [GitHub-repo](https://github.com/Felix561/Photovoltaic-power-forecasting-using-deep-learning)
 
-Title: Photovoltaic Short-term Power Forecasting using Deep Learning
+Title: Short-term Photovoltaic Power Forecasting using Deep Learning
 
-In this thesis, i developed a **Deep Learning** model for short-term PV power forecasting. The model, an end-to-end CNN-MLP hybrid network, takes a sky image, PV historical data, and the prediction value from the Smart Persistence Model (SPM) as input, to predict future power values for a 15-minute forecast period.
+In this thesis, i developed a **Deep Learning model** for short-term PV power forecasting. The model, an end-to-end CNN-MLP hybrid network, takes a sky image, PV historical data, and other data as input, to predict future power values for a 15-minute forecast period.
 
 High-level overview of the model:
 ![model architecture](/assets/img/High_level_Überblick_Model_V4.png)
 
-For Training and Evaluation of the Deep Learning model, was a dataset comprised of sky images and PV power values created using cost-effective software and hardware components such as a Raspberry Pi.
+For Training and Evaluation of the Deep Learning model, a dataset comprised of sky images and PV power values was created using cost-effective software and hardware components such as a **Raspberry Pi**.
 
 
 ### Benchmark model implementation 
 [GitHub-repo](https://github.com/Felix561/smart-persistence-model)
 
-I created a easy and standardized **Python implementation** of the Smart Persistence Model (SPM) to serve as a benchmark model for short-term PV power forecasting.
+I created a **Python implementation** of the Smart Persistence Model (SPM) to serve as a benchmark model for the short-term PV power forecasting problem.
