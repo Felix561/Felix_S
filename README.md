@@ -3,7 +3,7 @@
 #### Technical Skills: Python, C++, LTSpice, KiCAD
 
 ## Education 			        		
-- **B.Eng., Renewable Energy Engineering and Energy Efficiency** | Ostbayerische Technische Hochschule Regensburg (_Apr 2024_)
+- **B.Eng., Renewable Energy Engineering and Energy Efficiency** | Ostbayerische Technische Hochschule Regensburg (_2019 - 2024_)
 
 - Technisches Fachabitur | Fach-Ober-Schule Regensburg (FOS) (_2016 - 2019_)  
 
