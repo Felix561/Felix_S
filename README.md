@@ -1,5 +1,3 @@
-# Felix Seitzer
-
 #### Technical Skills: 
 Python, Data Science Foundations(NumPy, Pandas, Keras/TF), Git, C++(Object-oriented), LTSpice, KiCAD
 
