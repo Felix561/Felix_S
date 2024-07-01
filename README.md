@@ -19,7 +19,7 @@ My tasks:
 
 
 ### **intern @ [Krones AG](https://www.krones.com/de/index.php) (_Sep 2017 - Jul 2018_)**
-- Six month internship as part of my Technical "Abitur"
+- Six month internship as part of my Technical Abitur
 
 
 
