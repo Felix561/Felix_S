@@ -1,11 +1,12 @@
 # Felix Seitzer
 
-#### Technical Skills: Python, Data Science Foundations(NumPy, Pandas, Keras/TF), Git, C++(Object-oriented), LTSpice, KiCAD
+#### Technical Skills: 
+Python, Data Science Foundations(NumPy, Pandas, Keras/TF), Git, C++(Object-oriented), LTSpice, KiCAD
 
 ## Education 			        		
-- **B.Eng., Renewable Energy Engineering and Energy Efficiency** | Ostbayerische Technische Hochschule Regensburg (_2019 - 2024_)
+ **B.Eng., Renewable Energy Engineering and Energy Efficiency**,  Ostbayerische Technische Hochschule Regensburg (_2019 - 2024_)
 
-- Technisches Fachabitur | Fach-Ober-Schule Regensburg (FOS) (_2016 - 2019_)  
+ Technisches Fachabitur, Fach-Ober-Schule Regensburg (FOS) (_2016 - 2019_)  
 
 
 ## Work Experience
