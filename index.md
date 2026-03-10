@@ -1,3 +1,8 @@
+---
+layout: default
+title: Felix Seitzer — CV
+---
+
 # Felix Seitzer — CV
 
 ## Profile
