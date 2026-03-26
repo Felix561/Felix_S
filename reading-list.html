@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Felix Seitzer | Reading List</title>
+    <meta
+      name="description"
+      content="Paper reading list with read/queue status, TLDR notes, and interest level."
+    >
+    <meta name="theme-color" content="#0b0d10">
+    <link rel="canonical" href="https://felix561.github.io/Felix_S/reading-list.html">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Felix Seitzer">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Felix Seitzer | Reading List">
+    <meta property="og:description" content="Paper reading list with read/queue status, TLDR notes, and interest level.">
+    <meta property="og:url" content="https://felix561.github.io/Felix_S/reading-list.html">
+    <meta property="og:image" content="https://felix561.github.io/Felix_S/images/og-preview.png">
+    <meta property="og:image:alt" content="Terminal-style preview graphic for Felix Seitzer's portfolio">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Felix Seitzer | Reading List">
+    <meta name="twitter:description" content="Paper reading list with read/queue status, TLDR notes, and interest level.">
+    <meta name="twitter:image" content="https://felix561.github.io/Felix_S/images/og-preview.png">
+    <link rel="stylesheet" href="terminal.css">
+    <script src="theme.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-prefix">~/felix</div>
+      <ul class="nav-list">
+        <li><a href="index.html">about</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="watchlist.html">watch</a></li>
+        <li class="active"><a href="reading-list.html">papers</a></li>
+        <li><a href="blog.html">blog</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li class="lang-switch"><a href="de/reading-list.html">de</a></li>
+      </ul>
+      <button class="theme-toggle" type="button" aria-label="Toggle theme" onclick="toggleTheme(event)">
+        <span class="toggle-track"><span class="toggle-thumb"></span></span>
+      </button>
+    </nav>
+
+    <main>
+      <section class="boot-header" aria-label="Reading list output">
+        <div class="boot-line">[ <span class="ok">OK</span> ] mounted reading list</div>
+        <div class="boot-line">[ <span class="ok">OK</span> ] status flags: read / queue</div>
+        <div class="boot-line">[ <span class="warn">INFO</span> ] each entry includes tldr + interest score</div>
+      </section>
+
+      <section>
+        <div class="section-cmd">
+          <span class="dollar">$</span>
+          <span class="cmd">cat</span>
+          <span class="arg">papers.log</span>
+        </div>
+
+        <div class="paper-list">
+          <article class="paper-item">
+            <div class="paper-head">
+              <span class="paper-status read">read</span>
+              <h2 class="paper-title">On the Measure of Intelligence</h2>
+              <span class="paper-year">2019</span>
+            </div>
+            <div class="paper-authors">Francois Chollet</div>
+            <p class="paper-tldr"><strong>TLDR:</strong> My short version is that intelligence is not just getting a high score on a fixed benchmark. It is more about how well a system can adapt to genuinely new problems.</p>
+            <p class="paper-interest"><strong>Why I care:</strong> This is one of the papers that keeps showing up if you care about ARC, generalization, and what we even mean by reasoning in the first place.</p>
+            <div class="paper-links">
+              <a href="https://arxiv.org/abs/1911.01547" target="_blank" rel="noreferrer">arxiv</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <section>
+        <div class="section-cmd">
+          <span class="dollar">$</span>
+          <span class="cmd">cat</span>
+          <span class="arg">usage.txt</span>
+        </div>
+        <div class="block">
+          <p>
+            This is basically my scratchpad for papers. I want short TLDRs in my own words here, plus whether I already read the paper and whether it felt important.
+          </p>
+        </div>
+      </section>
+
+      <div class="footer-spacer"></div>
+    </main>
+  </body>
+</html>

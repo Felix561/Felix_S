@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Felix Seitzer | Blog</title>
+    <meta
+      name="description"
+      content="Terminal-style blog section for future writing by Felix Seitzer."
+    >
+    <meta name="theme-color" content="#0b0d10">
+    <link rel="canonical" href="https://felix561.github.io/Felix_S/blog.html">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Felix Seitzer">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Felix Seitzer | Blog">
+    <meta property="og:description" content="Terminal-style blog section for future writing by Felix Seitzer.">
+    <meta property="og:url" content="https://felix561.github.io/Felix_S/blog.html">
+    <meta property="og:image" content="https://felix561.github.io/Felix_S/images/og-preview.png">
+    <meta property="og:image:alt" content="Terminal-style preview graphic for Felix Seitzer's portfolio">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Felix Seitzer | Blog">
+    <meta name="twitter:description" content="Terminal-style blog section for future writing by Felix Seitzer.">
+    <meta name="twitter:image" content="https://felix561.github.io/Felix_S/images/og-preview.png">
+    <link rel="stylesheet" href="terminal.css">
+    <script src="theme.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-prefix">~/felix</div>
+      <ul class="nav-list">
+        <li><a href="index.html">about</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="watchlist.html">watch</a></li>
+        <li><a href="reading-list.html">papers</a></li>
+        <li class="active"><a href="blog.html">blog</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li class="lang-switch"><a href="de/blog.html">de</a></li>
+      </ul>
+      <button class="theme-toggle" type="button" aria-label="Toggle theme" onclick="toggleTheme(event)">
+        <span class="toggle-track"><span class="toggle-thumb"></span></span>
+      </button>
+    </nav>
+
+    <main>
+      <section class="boot-header" aria-label="Blog output">
+        <div class="boot-line">[ <span class="ok">OK</span> ] mounted blog index</div>
+        <div class="boot-line">[ <span class="ok">OK</span> ] no published posts yet</div>
+        <div class="boot-line">[ <span class="warn">INFO</span> ] writing mode: draft</div>
+      </section>
+
+      <section>
+        <div class="section-cmd">
+          <span class="dollar">$</span>
+          <span class="cmd">ls</span>
+          <span class="flag">-lt</span>
+          <span class="arg">./posts/</span>
+        </div>
+
+        <div class="blog-list">
+          <div class="blog-row muted">
+            <span class="blog-index">00</span>
+            <span class="blog-title">[ coming soon ]</span>
+            <span class="blog-date">--</span>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-cmd">
+          <span class="dollar">$</span>
+          <span class="cmd">cat</span>
+          <span class="arg">notes.txt</span>
+        </div>
+
+        <div class="block">
+          <p>
+            Coming soon. I want to take a bit more time with this section and only publish real posts once they are ready.
+          </p>
+        </div>
+      </section>
+
+      <div class="footer-spacer"></div>
+    </main>
+  </body>
+</html>

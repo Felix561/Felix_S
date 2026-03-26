@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Felix Seitzer | Reading List</title>
+    <meta
+      name="description"
+      content="Paper-Leseliste mit read/queue-Status, TLDR-Notizen und kurzer Interessen-Einschaetzung."
+    >
+    <meta name="theme-color" content="#0b0d10">
+    <link rel="canonical" href="https://felix561.github.io/Felix_S/de/reading-list.html">
+    <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Felix Seitzer">
+    <meta property="og:locale" content="de_DE">
+    <meta property="og:title" content="Felix Seitzer | Reading List">
+    <meta property="og:description" content="Paper-Leseliste mit read/queue-Status, TLDR-Notizen und kurzer Interessen-Einschaetzung.">
+    <meta property="og:url" content="https://felix561.github.io/Felix_S/de/reading-list.html">
+    <meta property="og:image" content="https://felix561.github.io/Felix_S/images/og-preview.png">
+    <meta property="og:image:alt" content="Terminalartiges Vorschaubild fuer das Portfolio von Felix Seitzer">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Felix Seitzer | Reading List">
+    <meta name="twitter:description" content="Paper-Leseliste mit read/queue-Status, TLDR-Notizen und kurzer Interessen-Einschaetzung.">
+    <meta name="twitter:image" content="https://felix561.github.io/Felix_S/images/og-preview.png">
+    <link rel="stylesheet" href="../terminal.css">
+    <script src="../theme.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-prefix">~/felix</div>
+      <ul class="nav-list">
+        <li><a href="index.html">profil</a></li>
+        <li><a href="projects.html">projekte</a></li>
+        <li><a href="watchlist.html">watch</a></li>
+        <li class="active"><a href="reading-list.html">papers</a></li>
+        <li><a href="blog.html">blog</a></li>
+        <li><a href="contact.html">kontakt</a></li>
+        <li class="lang-switch"><a href="../reading-list.html">en</a></li>
+      </ul>
+      <button class="theme-toggle" type="button" aria-label="Theme umschalten" onclick="toggleTheme(event)">
+        <span class="toggle-track"><span class="toggle-thumb"></span></span>
+      </button>
+    </nav>
+
+    <main>
+      <section class="boot-header" aria-label="Reading-List-Ausgabe">
+        <div class="boot-line">[ <span class="ok">OK</span> ] paper-liste geladen</div>
+        <div class="boot-line">[ <span class="ok">OK</span> ] status: read / queue</div>
+        <div class="boot-line">[ <span class="warn">INFO</span> ] jeder eintrag mit tldr + interesse</div>
+      </section>
+
+      <section>
+        <div class="section-cmd">
+          <span class="dollar">$</span>
+          <span class="cmd">cat</span>
+          <span class="arg">papers.log</span>
+        </div>
+
+        <div class="paper-list">
+          <article class="paper-item">
+            <div class="paper-head">
+              <span class="paper-status read">read</span>
+              <h2 class="paper-title">On the Measure of Intelligence</h2>
+              <span class="paper-year">2019</span>
+            </div>
+            <div class="paper-authors">Francois Chollet</div>
+            <p class="paper-tldr"><strong>TLDR:</strong> Meine kurze Version ist: Intelligenz ist nicht einfach nur ein hoher Score auf einem festen Benchmark. Wichtiger ist, wie gut ein System mit wirklich neuen Problemen umgehen kann.</p>
+            <p class="paper-interest"><strong>Warum es mich interessiert:</strong> Das ist fuer mich eines der zentralen Papers, wenn man ueber ARC, Generalisierung und ueberhaupt ueber Reasoning sprechen will.</p>
+            <div class="paper-links">
+              <a href="https://arxiv.org/abs/1911.01547" target="_blank" rel="noreferrer">arxiv</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <section>
+        <div class="section-cmd">
+          <span class="dollar">$</span>
+          <span class="cmd">cat</span>
+          <span class="arg">usage.txt</span>
+        </div>
+        <div class="block">
+          <p>
+            Das hier ist im Grunde mein kleines Notizbrett fuer Papers. Ich will kurze TLDRs in meinen eigenen Worten sammeln, plus ob ich ein Paper schon gelesen habe und wie wichtig ich es fand.
+          </p>
+        </div>
+      </section>
+
+      <div class="footer-spacer"></div>
+    </main>
+  </body>
+</html>
